@@ -28,7 +28,7 @@ a {
 body{
 font-family: 'Orelega One', cursive;
 font-weight: 400;
-background-color: #98fb98;
+background-color: #50C878;
 }
 
 a {
@@ -109,8 +109,9 @@ button {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+      -ms-flex: 0 1 100px;
+          flex: 0 1 100px;
+  border-radius: 50%;
 }
 
 .page-header__item:last-child {
@@ -136,12 +137,18 @@ button {
   grid-template-rows: 300px 300px;
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 .grid > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
+}
+
+.grid__item {
+  background-color:#CBC3E3;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 @media all and (max-width: 500px) {
