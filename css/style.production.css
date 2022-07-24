@@ -32,12 +32,12 @@ background-color: #50C878;
 }
 
 a {
-  color: #357b70;
+  color: #6a0dad;
 }
 
 a:visited {
   /* visited link */
-  color: #05676e;
+  color: #6a0dad;
 }
 
 a:hover, a:focus {
@@ -111,7 +111,7 @@ button {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 100px;
           flex: 0 1 100px;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 .page-header__item:last-child {
